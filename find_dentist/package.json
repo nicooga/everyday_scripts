@@ -1,0 +1,20 @@
+{
+  "name": "find_dentist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node find_dentist.ts | tee tmp/output.txt"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
